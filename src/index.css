@@ -110,3 +110,31 @@ body {
   color: #667085;
   padding-bottom: 2rem;
 }
+
+@media (max-width: 640px) {
+  #twitter {
+    font-size: 18px;
+  }
+
+  .links {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .links > * {
+    font-size: 14px;
+    height: 68px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .share-button.big-screen {
+    display: none;
+  }
+  .share-button.small-screen {
+    display: block;
+  }
+}
