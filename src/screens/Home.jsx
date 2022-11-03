@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   Bonaventure,
@@ -81,6 +82,9 @@ const Home = () => {
           >
             Design Books
           </a>
+          <Link to="/contact" id="contact">
+            Contact Me
+          </Link>
         </section>
         <section className="externals">
           <a
