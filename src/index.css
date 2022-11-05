@@ -10,6 +10,10 @@ body {
   max-width: 1440px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .main {
   max-width: 1216px;
   padding-top: 4rem;
@@ -139,4 +143,124 @@ body {
   .share-button.small-screen {
     display: block;
   }
+}
+
+.contact {
+  max-width: 1216px;
+  padding-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10rem;
+}
+
+.contact .inner-container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.contact .para {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+
+.contact .form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact .form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.contact label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0px 14px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.contact textarea {
+  height: 132px;
+  padding-top: 10px;
+  resize: none;
+}
+
+.contact .twin-form {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.contact .twin-form .form-control {
+  flex: 1;
+}
+
+.contact .form-check {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact .form-check input {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.contact #btn__submit {
+  height: 48px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
