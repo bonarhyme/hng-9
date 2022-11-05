@@ -264,3 +264,17 @@ body {
   line-height: 24px;
   color: #ffffff;
 }
+
+@media (max-width: 640px) {
+  .contact {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .contact .para {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .contact .twin-form {
+    flex-direction: column;
+  }
+}
